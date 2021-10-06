@@ -1,0 +1,43 @@
+name: flutter_app_provider
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # StateManagement
+  provider:
+  # JsonParser
+  json_annotation: 4.0.1
+  # Http Client
+  dio:
+  #Svg Loader
+  flutter_svg:
+  # Local Persist
+  shared_preferences:
+  # localization
+  easy_localization: ^3.0.0
+  device_preview: ^0.7.4
+  # Simple direct Service Locator
+  get_it:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^4.1.0
+  flutter_lints: ^1.0.4
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/translations/
+    - assets/images/
